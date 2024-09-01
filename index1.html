@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and Animations</title>
+    <style>
+        .container{
+            background-color: brown;
+        }
+        .class{
+            background-color: aqua;
+            width: 300px;
+            height: 250px;
+
+            /* Animation Properties: */
+            position: relative;
+            /* animation-name: Ammar1; */
+            animation-name: Ammar2;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-fill-mode: alternate; 
+            animation-timing-function: ease-out;
+            animation-delay: 2s; 
+            animation-direction:reverse;
+        }
+        @keyframes Ammar2{
+            0%{
+            top: 0px;
+            left: 200px;
+            /* right: 30px; */
+            }
+           30%{
+            top: 20px;
+            left: 400px;
+            /* right: 60px; */
+            }
+           60%{
+            top: 40px;
+            left: 600px;
+            /* right: 90px; */
+            }
+          100%{
+            top: 0px;
+            left: 800px;
+            /* right: 120px; */
+            }
+        }
+        @keyframes Ammar1{
+            from{
+                width: 100px;
+            }
+            to{
+                width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class">
+            This is a Class
+        </div>
+    </div>
+</body>
+</html>
