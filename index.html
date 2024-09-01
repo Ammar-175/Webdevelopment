@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar's CV</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'contact profile profile profile'
+            'skills Education Education Education'
+            'language reference reference reference';
+        }
+        h1{
+            color: brown;
+            font-size: 50px;
+        }
+        p{
+            text-align: center;
+        }
+        img{
+            margin: auto;
+            display: block;
+        }
+        .top h1{
+            font-style: italic;
+            color: whitesmoke;
+            text-align: center;
+            font-weight: bold;
+        }
+        span{
+            display: block;
+            font-size: 25px;
+        }
+        #contact{
+            grid-area: contact;
+            border: 4px solid yellowgreen;
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px yellow;
+        }
+        #contact:hover{
+            background-color: white;
+        }
+        #skills{
+            grid-area: skills;
+            border: 4px solid yellowgreen;
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px yellow;
+        }
+        #skills:hover{
+            background-color: white;
+        }
+        #language{
+            grid-area: language;
+            border: 4px solid yellowgreen;
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px yellow;
+        }
+        #language:hover{
+            background-color: white;
+        }
+        #profile{
+            grid-area: profile;
+            border: 4px solid gold;
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px greenyellow;
+        }
+        #profile:hover{
+            background-color: white;
+        }
+        #Education{
+            grid-area: Education;
+            border: 4px solid gold;
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px greenyellow;
+        }
+        #Education:hover{
+            background-color: white;
+        }
+        #reference{
+            grid-area: reference;
+            border: 4px solid gold;
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px greenyellow;
+        }
+        #reference:hover{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ammar's CV</h1>
+    <header class="top">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWdw76Nrr0YKQgsnaaq1m1hGODzGGVvYRKfA&s" alt="img">
+        <h1>Muhammad Ammar</h1>
+        <p>(Student and Self Learner)</p>
+    </header>
+    <div class="container">
+        <div id="contact" class="material">
+            <h1>CONTACT</h1>
+            <span>Phone No. : +92 337-7468144</span>
+            <span>E-mail : raja.ammar1005@gmail.com</span>
+            <span>Address : VPO Tatral, Tehsil and District Chakwal</span>
+            <span>Link : https://ammar-175.github.io/Webdevelopment/</span>
+        </div>
+        <div id="skills" class="material">
+            <h1>SKILLS</h1>
+            <ul>
+                <li>MS Word</li>
+                <li>MS Excel</li>
+                <li>Web Development</li>
+                <li>Computer Programming</li>
+                <li>Team work</li>
+                <li>Time Management</li>
+                <li>Effective Communication</li>
+                <li>Critical Thinking</li>
+            </ul>
+        </div>
+        <div id="language" class="material">
+            <h1>LANGUAGES</h1>
+            <ul>
+                <li>URDU</li>
+                <li>PUNJABI</li>
+                <li>ENGLISH</li>
+            </ul>
+        </div>
+        <div id="profile" class="material">
+            <h1>PROFILE</h1>
+            <p>A motivated student with a strong work ethic and passion for learning,
+                Skilled in computer software and programming with a solid academic
+                record and excellent teamwork and communication skills.</p>
+        </div>
+        <div id="Education" class="material">
+            <h1>EDUCATION</h1></p>
+            <h4>FSC(ICS)
+                <br>
+                Punjab College of Science and Commerce Chakwal (2020-2022)
+            </h4>
+            <h4>Result : 728/100(1st Devision)</h4>
+            <h4>Corses :</h4>
+            <ul>
+                <li>Computer Science</li>
+                <li>Physics</li>
+                <li>Mathematics</li>
+            </ul>
+            <hr>
+            <h4>Matriculation(Science)
+                <br>
+                District Public Higher Secondary School and College Chakwal (2018-2020)
+            </h4>
+            <h4>Result : 936/100(1st Devision)</h4>
+            <h4>Corses :</h4>
+            <ul>
+                <li>Computer Science</li>
+                <li>Physics</li>
+                <li>Mathematics</li>
+                <li>Chemistry</li>
+            </ul>
+        </div>
+        <div id="reference" class="material">
+            <h1>REFERENCE</h1>
+            <p>Reference will be provided upon request.</p>
+        </div>
+    </div>
+</body>
+</html>
