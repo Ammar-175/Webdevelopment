@@ -63,7 +63,7 @@
 #home::after{
     position: absolute;
     content: "";
-    background : url('../img/bg1.jpg') no-repeat center center/cover;
+    background : url('./img/bg1.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -5;
@@ -160,7 +160,7 @@ img{
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('/../img/bg2.jpg') no-repeat center center/cover;
+    background: url('Project2/img/bg2.jpg') no-repeat center center/cover;
 }
 footer{
     text-align: center;
