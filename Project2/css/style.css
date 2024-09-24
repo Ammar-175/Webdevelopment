@@ -70,13 +70,12 @@
     height: 100%;
     width: 100%;
     z-index: -5;
-    opacity: 0.95;
+    opacity: 0.9;
 }
 #home h1{
     color: white;
     text-align: center;
     font-family: "Bree Serif", serif;
-
 }
 #home p{
     color: white;
