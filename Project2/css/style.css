@@ -66,7 +66,7 @@
 #home::after{
     position: absolute;
     content: "";
-    background : url('css/bg1.jpg') no-repeat center center/cover;
+    background : url('/style.css/bg1.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -5;
