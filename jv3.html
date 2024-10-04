@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Strings and string mrthod</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magnam numquam commodi! Vero, debitis saepe. Magni, vel! Voluptas modi alias voluptatem a reprehenderit repellat nesciunt numquam mollitia fugit suscipit ea, perferendis in dignissimos harum magnam hic voluptate officiis adipisci fugiat?</p>
+    </div>
+    <script>
+        var string = "this";
+        var message = "Ammar is a good boy";
+        var name = "AMMAR";
+        console.log(name,message,string);
+
+        var temp = `${name} is a nice person and he has a message called ${message}`;
+        console.log(temp);
+
+        var len = name.length;
+        console.log(`length of name is ${len}`)
+
+        console.log("Hello World \n Ammar \t and \b");   // => '\n' for next line, '\t' for spaces and '\b' for Question mark.
+
+        document.getElementById('content').innerHTML = '<h3>This is an h3 Heading</h3>'   // => Point to be noted.
+    </script>
+</body>
+</html>
